@@ -82,5 +82,5 @@ app.post('/api/uploadPhotos', function(req, res) {
     })
 
 });
-server.listen(process.env.PORT, '0.0.0.0');
-// app.listen(process.env.PORT || 8080, function(){console.log("App listening on port 8080");});
+// server.listen(process.env.PORT, '0.0.0.0');
+app.listen(process.env.PORT || 8080, function(){console.log("App listening on port 8080");});
