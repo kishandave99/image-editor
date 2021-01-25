@@ -1,9 +1,3 @@
-# FileuploadNodejsAngularjs
-
-#website Link 
-
-https://www.codesolution.co.in/
-
 # Package Install
 npm install
 
