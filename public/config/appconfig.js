@@ -18,6 +18,6 @@ angular
         pageError: '/error',
 
         // resourceImageDownload: '/public/file/download-project-renovation-image?fileId='
-        resourceImageDownload: './public/uploads/'
+        resourceImageDownload: '/uploads/'
 
     });
