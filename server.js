@@ -8,7 +8,7 @@ var methodOverride = require('method-override');
 var multer  =   require('multer');
 var fs = require("fs");
 
-app.use('/.netlify/fuction/server',function(req, res, next) { //allow cross origin requests
+app.use('/.netlify/fuction/api',function(req, res, next) { //allow cross origin requests
     if (req.method === 'OPTIONS') {
         console.log('!OPTIONS');
         var headers = {};
