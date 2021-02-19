@@ -32,11 +32,11 @@
 <body class="portal-popup ">
     
     <div block-ui="body">
-        <!-- <script src="modules/common/view/footer.html"></script> -->
         <div ng-include="'modules/common/view/header.html'"></div>
         <!-- Blank Loading Div Start-->
-        <div ng-show="stateIsLoading" style="height: 500px;"></div>
-        <!-- Blank Loading Div End-->
+        <!-- <div ng-show="stateIsLoading" style="height: 500px;"></div> -->
+        <div ng-show="stateIsLoading" ></div>
+        <!-- Blank Loading Div End -->
         <div ng-view ng-show="!stateIsLoading" ></div>
         
         <div ng-include="'modules/common/view/footer.html'"></div>

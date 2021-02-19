@@ -28,6 +28,10 @@ angular.module("image-editor").config(function ($routeProvider, $locationProvide
             }
         }
     })
+    .when(appUrl.page500, {
+        title: 'Internal Server Error',
+        templateUrl: 'modules/error/view/500.html'
+    })
 
     .otherwise({
         title: 'Image Editor - Home',

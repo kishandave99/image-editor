@@ -9,6 +9,6 @@
     window.environment.baseUrl = '';
 
     // Public Resource url
-    window.environment.publicResourceUrl = 'https://image-editor99.netlify.app/';
+    window.environment.publicResourceUrl = 'https://image-editor99.netlify.app';
 
 }(this));

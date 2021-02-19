@@ -443,8 +443,8 @@
                                     <div class="imgTitleBox bgImgesOpecity" id="html-content-holder" style="background-image: url({{backGroundImage}})">
                                         <div class="imgTitleBoxLogo">
                                             <div class="imgBoxLogo" ng-style="{ 'text-align' : logo.alignment }">
-                                                <img ng-if="logo.logoFileView != undefined && logo.logoFileView.filename != undefined" src="{{publicResourceUrl}}{{appUrl.resourceImageDownload}}{{logo.logoFileView.filename}}" alt="{{logo.logoFileView.filename}}">
-                                                <img ng-if="logo.logoFileView == undefined || logo.logoFileView.filename == undefined" src="resources/images/logo.png">
+                                                <img ng-if="logo.logoFileView != undefined && logo.logoFileView.filename != undefined" ng-src="{{publicResourceUrl}}{{appUrl.resourceImageDownload}}{{logo.logoFileView.filename}}" alt="{{logo.logoFileView.filename}}">
+                                                <img ng-if="logo.logoFileView == undefined || logo.logoFileView.filename == undefined" ng-src="resources/images/logo.png">
                                             </div>
                                         </div>
                                         <div class="imgTitleBoxCaption">
