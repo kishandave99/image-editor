@@ -12,7 +12,7 @@ app.use(function(req, res, next) { //allow cross origin requests
     if (req.method === 'OPTIONS') {
         console.log('!OPTIONS');
         var headers = {};
-        headers["Access-Control-Allow-Origin"] = "*";
+        headers["Access-Control-Allow-Origin"] = "https://image-editor99.netlify.app/";
         headers["Access-Control-Allow-Methods"] = "POST, GET, PUT, DELETE, OPTIONS";
         headers["Access-Control-Allow-Credentials"] = false;
         headers["Access-Control-Max-Age"] = '86400'; // 24 hours
@@ -20,7 +20,7 @@ app.use(function(req, res, next) { //allow cross origin requests
         res.writeHead(200, headers);
         res.end();
     }
-    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Origin", "https://image-editor99.netlify.app/");
     res.header("Access-Control-Allow-Methods", "POST, PUT, OPTIONS, DELETE, GET");
     res.header("Access-Control-Max-Age", "3600");
     res.header("Access-Control-Allow-Headers", "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
