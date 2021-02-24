@@ -3,4 +3,6 @@
 
 [dev]
   publish = "dist"
-  
+
+/*
+  Access-Control-Allow-Origin: *
